@@ -10,8 +10,6 @@ const Splash = ({
   const options = useContext(OptionsContext);
 
   const handleDurationEnd = () => {
-    options.hide();
-
     if (onDurationEnd) {
       onDurationEnd();
     }
